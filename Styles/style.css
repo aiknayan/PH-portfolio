@@ -1,0 +1,299 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Header & Navigation STyles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 230px;
+
+}
+
+.nav-title {
+    font-weight: 800;
+    font-size: 45px;
+
+}
+
+nav li {
+    list-style: none;
+    margin-left: 50px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.text-primary {
+    color: #FD6E0A;
+}
+
+.btn-primary {
+    height: 64px;
+    font-size: 20px;
+    font-weight: 700;
+
+    color: #FFFFFF;
+    background: #FD6E0A;
+    border-radius: 5px;
+    border: none;
+    padding: 18px 35px;
+
+}
+
+.contact-button {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+
+    color: #FD6E0A;
+    margin-left: 30px;
+    border: 1px solid #FD6E0A;
+    border-radius: 5px;
+    padding: 19px 24px;
+    background: #FFF8F3;
+
+}
+
+
+.header {
+    background: #FFF8F3;
+    background-image: url('/images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, bottom left;
+    margin-bottom: 113px;
+}
+
+
+/* banner style */
+
+.banner {
+    display: flex;
+    margin: 0 38px 0 230px;
+    align-items: center;
+}
+
+.banner-sub-title {
+    font-weight: 600;
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 5px;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 85px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+.banner-des {
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+
+}
+
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+/* main Section */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+
+
+}
+
+/* ABout section style */
+.about {
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 156px;
+}
+
+section {
+    margin-top: 130px;
+}
+
+.Section-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    padding-bottom: 30px;
+    /* margin-bottom: 113px; */
+}
+
+
+.section-description {
+    color: #757575;
+    font-weight: 400;
+    font-size: 18px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-title {
+    color: #757575;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.info-description {
+
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    color: #474747;
+}
+
+/* What I do style */
+/* .What-Ido {
+
+} */
+
+.section-title {
+    font-weight: 700;
+    font-size: 35px;
+    border-radius: 10px;
+    text-align: center;
+    color: #181818;
+    height: 48px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.What-Ido>P {
+    height: 90px;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: #757575;
+}
+
+.skillscontainer {
+    display: flex;
+}
+
+.skill-title {
+    height: 27px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #181818;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.skill-description {
+    height: 196px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+}
+
+.skill {
+    height: 377px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    margin-right: 24px;
+    padding: 30px;
+    margin-top: 130px;
+}
+
+/* resume style */
+
+.resume-title {
+    height: 41px;
+    font-weight: 700;
+    font-size: 30px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+
+.title {
+    height: 34px;
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    margin-top: 30px;
+}
+
+.sub-title {
+    height: 27px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+    margin-bottom: 20px;
+}
+
+.resume-description {
+    height: 84px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+.resume-content {
+    display: flex;
+    margin-top: 30px;
+    gap: 24px;
+}
+
+.CV-download {
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+/* Contact style */
+.contact {
+    background: #FFF8F3;
+    display: flex;
+    gap: 100px;
+    padding: 130px 200px;
+
+}
+
+.contact .section-title {
+    text-align: left;
+
+}
+
+.contact input[type="email"],
+input[type="text"],
+textarea {
+    margin-bottom: 24px;
+    border: none;
+    padding: 18px 30px;
+    width: 100%;
+    text-decoration: none;
+}
+
+.contact p {
+    margin-bottom: 30px;
+}
+
+img {
+    padding-right: 24px;
+}
+
+textarea {
+    resize: none;
+}
